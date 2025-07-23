@@ -1,3 +1,41 @@
-.main-font{
+.main-font {
   font-family: "Poppins", sans-serif;
+}
+
+/* shared style jodi dorkar hoe  */
+.display-flex {
+  display: flex;
+}
+
+.text-dark {
+  color: #252525;
+}
+
+.text-orange {
+  color: #e95a08;
+}
+
+/* header stlye  */
+
+/* nav releted style dorkar porle  */
+.navbar {
+  justify-content: space-between;.
+  /* align-items: center; */
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.logo {
+  margin: 0 120px;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 48px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #252525;
 }
