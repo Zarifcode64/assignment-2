@@ -14,7 +14,9 @@
 .text-orange {
   color: #e95a08;
 }
-
+.text-clay{
+  color: #8987A1;
+}
 /* header stlye  */
 
 /* nav releted style dorkar porle  */
@@ -53,7 +55,16 @@ margin-left: 135px;
   margin-top: -23px;
 }
 
-.hero-image{
+/* .hero-image{
 margin-left: 1100px;
 margin-top: -300px;
+} */
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  margin-top:200px;
+  margin-right: 150px;
 }
