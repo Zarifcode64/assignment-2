@@ -39,3 +39,21 @@
   font-weight: 500;
   color: #252525;
 }
+
+.title{
+  font-size: 55px;
+font-weight: bold;
+margin-left: 135px;
+margin-top: 250px;
+}
+
+.description{
+  font-size: 18px;
+margin-left: 135px;
+  margin-top: -23px;
+}
+
+.hero-image{
+margin-left: 1100px;
+margin-top: -300px;
+}
