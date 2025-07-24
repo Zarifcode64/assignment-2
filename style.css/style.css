@@ -198,12 +198,12 @@ width: 400px;
 
 .golap {
   background-image: url("/style.css/assets/deal-bloom.png");
-  height: 200px;
+  height: 220px;
 }
 
 .sapla {
   background-image: url("/style.css/assets/deal-ana.png");
-  height: 200px;
+  height: 220px;
   margin-top: 20px;
 }
 
@@ -213,20 +213,106 @@ width: 400px;
   margin-left: 20px;
 }
 
+.form-image{
+  background-image: url("assets/news-letter-bg.png");
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+  justify-items: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.email-box{
+  padding-right: 300px;
+  padding-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
 
+}
+.btn-sub{
+  padding: 16px  90px;
+  border-style: none;
+  color: white;
+  background-color: #e95a08;
+  margin-left: -10px;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+}
 
+footer{
+margin-left: 10%;
+margin-right: 15%;
 
+display: flex;
+gap: 150px;
+justify-content: space-between;
+}
+.footer-link{
+padding: 35px;
+justify-content: center;
 
+}
 
+.footer-link a{
+  text-decoration: none;
+  color: #252525;
+  padding-bottom: 32px;
+}
+.footer-link ul{
+  list-style: none;
+  margin-bottom: 20px;
+}
 
+.footer2-link{
+padding: 35px;
+justify-content: center;
 
+}
 
+.footer2-link a{
+  text-decoration: none;
+  color: #252525;
+  padding-bottom: 32px;
+}
+.footer2-link ul{
+  list-style: none;
+  margin-bottom: 20px;
+}
 
+.logos {
+display: flex;
+gap: 15px;
+margin-top: 60px;
+}
+.logos img{
+width: 30px;
+height: 30px;
+}
 
-
-
+.name-nai{
+  margin-top: 50px;
+}
+.footer2-link{
+  margin-left: -300px;
+}
 
 
 
 /* responsive jinish pati */
+@media screen and (max-width: 576px) {
+.menu{
+display: none;
+}
+.container img{
+max-width: 100%;.
+ height: auto;
+ display: block;
+  
+}
+}
