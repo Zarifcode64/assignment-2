@@ -6,11 +6,17 @@
 .display-flex {
   display: flex;
 }
+/* center */
+.center{
+  justify-items: center;
+}
 
 .text-dark {
   color: #252525;
 }
-
+.main-color{
+  background-color: #F5F8FF;
+}
 .text-orange {
   color: #e95a08;
 }
@@ -67,4 +73,47 @@ margin-top: -300px;
 .hero-image{
   margin-top:200px;
   margin-right: 150px;
+}
+
+.Plants{
+  text-align: center;
+  margin-top: 120px;
+  /* font-size: 15px; */
+}
+
+.h{
+  font-size: 50px;
+}
+
+.p{
+  font-size: 18px;
+  color: #6B7280;
+}
+.grid-product{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+justify-items: center;
+margin-top: 50px;
+      max-width: 1200px;
+margin: auto;
+}
+.Lily{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.USD{
+  justify-content: center;
+  font-size: 22px;
+}
+
+.btn-primary{
+  padding: 15px  90px;
+  border-style: none;
+  color: white;
+  background-color: #e95a08;
+  margin-top:30px;
+  border-radius: 3px;
 }
