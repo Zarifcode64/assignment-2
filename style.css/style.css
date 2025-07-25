@@ -301,18 +301,79 @@ height: 30px;
 .footer2-link{
   margin-left: -300px;
 }
-
+.mobile-header {
+      display: none;
+    }
 
 
 /* responsive jinish pati */
 @media screen and (max-width: 576px) {
-.menu{
+.navbar{
 display: none;
 }
 .container img{
 max-width: 100%;.
  height: auto;
- display: block;
-  
+ display: block; 
 }
+ .mobile-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px -5px;
+        background-color: #f2f2f2;
+        font-family: sans-serif;
+      }
+      .logo{
+        margin-left: 10px;
+      }
+      .cart{
+        margin-right: 10px;
+      }
+      .hero-image{
+        width: 100%;
+        margin-top: 30px;
+      }
+      .title{
+        font-size: 25px;
+        margin-top: 20px;
+      }
+      .description{
+        font-size: 10px ;
+      }
+      .container{
+        flex-direction: column-reverse;
+      }
+      .h{
+        font-size: 25px;
+      }
+      .p{
+        font-size: 10px;
+        margin-bottom: 40px;
+      }
+      .grid-product{
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+      }
+      .product-card{
+        padding: 10px;
+        font-size: 14px;
+text-align: center;
+        
+      }
+      .product-card img{
+        width: 100%;
+        height: auto;
+      }
+      .Lily{
+        font-size: 18px;
+      }
+      .USD{
+        font-size: 15px;
+      }
+      .btn-primary{
+        padding: 18px;
+      }
 }
+
+
