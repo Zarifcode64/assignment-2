@@ -197,18 +197,18 @@ width: 400px;
 }
 
 .golap {
-  background-image: url("/style.css/f1.png");
+  background-image: url("./f1.png");
   height: 220px;
 }
 
 .sapla {
-  background-image: url("/style.css/f2.png");
+  background-image: url("./f2.png");
   height: 220px;
   margin-top: 20px;
 }
 
 .belly {
-  background-image: url("/style.css/f3.png");
+  background-image: url("./f3.png");
   height: 460px;
   margin-left: 20px;
 }
